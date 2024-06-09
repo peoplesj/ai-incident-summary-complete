@@ -1,9 +1,9 @@
 ### About the function
 This function is designed to be used within the Slack Workflow Builder. The function reads a slack message and then makes an API call to OpenAI to create a incident summary. The incident summary is then saved as an output variable. 
 
-### Dependencies
-1. The user will need to generate an OpenAI API token through https://platform.openai.com/api-keys
-
+### Dependencies and setup
+1. This function requires an OpenAI API token, which you can generate at OpenAI API Keys.
+2. Once the token is generated, add it as an environment variable named OPEN_AI_TOKEN. Refer to the sample.env file for guidance.
 https://github.com/peoplesj/ai-summarize-function/assets/105441105/806a1021-84ca-418a-a589-b74e1a93de65
 
 ### Modify the function
